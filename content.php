@@ -17,7 +17,8 @@
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'hyde' ) ); ?>
+		<?php the_excerpt(); ?>
+		<a class="read-more" href="<?php echo get_permalink($post->ID); ?>"><?php echo __('Read More', 'hyde');?></a>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'hyde' ),

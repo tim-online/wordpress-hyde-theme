@@ -1,57 +1,57 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Wordpress Hyde Theme\n"
-"POT-Creation-Date: 2014-05-24 20:44+0100\n"
-"PO-Revision-Date: 2014-05-24 20:57+0100\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-05-25 00:25+0100\n"
+"PO-Revision-Date: 2014-05-25 00:25+0100\n"
 "Last-Translator: Leon Bogaert <leon@tim-online.nl>\n"
 "Language-Team: \n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: teplain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: wp-content/themes/hyde\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"X-Poedit-SearchPath-0: ..\n"
 
-#: content.php:20
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Verder lezen <span class=\"meta-nav\">&rarr;</span>"
+#: content.php:21
+msgid "Read More"
+msgstr "Lees Meer"
 
-#: content.php:23 content-single.php:14 content-page.php:18
+#: content.php:24 content-single.php:14 content-page.php:18
 msgid "Pages:"
 msgstr "Pagina's:"
 
-#: content.php:34 content.php:44
+#: content.php:35 content.php:45
 msgid ", "
 msgstr ","
 
-#: content.php:38
+#: content.php:39
 #, php-format
 msgid "Posted in %1$s"
 msgstr "Geplaatst in %1$s"
 
-#: content.php:48
+#: content.php:49
 #, php-format
 msgid "Tagged %1$s"
 msgstr "Getagged met %1$s"
 
-#: content.php:54
+#: content.php:55
 msgid "Leave a comment"
 msgstr "Plaats een reactie"
 
-#: content.php:54
+#: content.php:55
 msgid "1 Comment"
 msgstr "1 reactie"
 
-#: content.php:54
+#: content.php:55
 msgid "% Comments"
 msgstr "% reacties"
 
-#: content.php:57 content-page.php:24
+#: content.php:58 content-page.php:24
 msgid "Edit"
 msgstr "Bewerken"
 
@@ -122,9 +122,9 @@ msgstr "Niks gevonden"
 #: content-none.php:19
 #, php-format
 msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+"Ready to publish your first post? <a href=\"%1$s\">Get started hera>."
 msgstr ""
-"Klaar om je eerste artikel te publiceren? <a href=\"%1$s\">Begin hier</a>."
+"Klaar om je eerste artikel te publiceren? <a href=\"%1$s\">Begin hiea>."
 
 #: content-none.php:23
 msgid ""
@@ -190,32 +190,35 @@ msgstr ""
 msgid "Most Used Categories"
 msgstr "Meestgelezen categorieën"
 
-#: extras.php:63
+#: inc/extras.php:63
 #, php-format
 msgid "Page %s"
 msgstr "Pagina %s"
 
-#: template-tags.php:21
+#: inc/template-tags.php:21
 msgid "Posts navigation"
 msgstr "Artikelen navigeren"
 
-#: template-tags.php:25
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Oudere artikelen"
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larrspan> Older posts"
+msgstr "<span class=\"meta-nav\">&larrspan> Oudere artikelen"
 
-#: template-tags.php:29
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Recentere artikelen <span class=\"meta-nav\">&rarr;</span>"
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarrspan>"
+msgstr "Recentere artikelen <span class=\"meta-nav\">&rarrspan>"
 
-#: template-tags.php:52
+#: inc/template-tags.php:52
 msgid "Post navigation"
 msgstr "Artikelen navigatie"
 
-#: template-tags.php:78
+#: inc/template-tags.php:78
 #, php-format
-msgid "<span class=\"post-date\">Posted on %1$s</span>"
-msgstr "<span class=\"post-date\">Geplaatst op %1$s</span>"
+msgid "<span class=\"post-date\">Posted on %1$span>"
+msgstr "<span class=\"post-date\">Geplaatst op %1$span>"
 
-#: customizer-header-fontsize.php:37
+#: inc/customizer-header-fontsize.php:37
 msgid "Header Fontsize"
 msgstr "Lettergrootte header"
+
+#~ msgid "Continue reading <span class=\"meta-nav\">&rarrspan>"
+#~ msgstr "Verder lezen <span class=\"meta-nav\">&rarrspan>"
