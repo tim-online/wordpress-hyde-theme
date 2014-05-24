@@ -93,10 +93,7 @@ add_action( 'widgets_init', 'hyde_widgets_init' );
  */
 function hyde_scripts() {
 	# wp_enqueue_style( 'hyde-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'hyde-poole', get_stylesheet_directory_uri() . '/css/poole.css' );
-	wp_enqueue_style( 'hyde-hyde', get_stylesheet_directory_uri() . '/css/hyde.css' );
-	wp_enqueue_style( 'hyde-wp-compat', get_stylesheet_directory_uri() . '/css/wp-compat.css' );
-	wp_enqueue_style( 'hyde-syntax', get_stylesheet_directory_uri() . '/css/syntax.css' );
+	wp_enqueue_style( 'hyde-style', get_stylesheet_directory_uri() . '/css/style.css' );
 	wp_enqueue_style( 'hyde-google-fonts', 'http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface');
 
 	wp_enqueue_script( 'hyde-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );

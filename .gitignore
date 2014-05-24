@@ -10,3 +10,7 @@ desktop.ini
 *.sublime-project
 *.sublime-workspace
 ctags
+
+# Sass
+.sass-cache
+/css/*
