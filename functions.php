@@ -55,6 +55,9 @@ function hyde_setup() {
 		'wp-head-callback' => 'hyde_custom_background_cb'
 	) ) );
 
+	// add_theme_support( 'custom-header', apply_filters( 'hyde_custom_header_args', array(
+	// ) ) );
+
 	// Enable support for HTML5 markup.
 	add_theme_support( 'html5', array(
 		'comment-list',
@@ -132,6 +135,11 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 /**
- * Load Jetpack compatibility file.
+ * Load custom tree navigation walker
  */
 require get_template_directory() . '/inc/custom-nav-walker.php';
+
+/**
+ * Load new customizer option
+ */
+require get_template_directory() . '/inc/customizer-header-fontsize.php';

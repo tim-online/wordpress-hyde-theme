@@ -14,14 +14,12 @@
 				<p class="lead"><?php bloginfo( 'description' ); ?></p>
 			</div>
 
-			<div class="sidebar-nav">
-				<?php wp_nav_menu( array(
-					'theme_location' => 'primary',
-					'container'      => '',
-					'menu_class'     => 'sidebar-nav',
-					// 'walker'         => new hyde_walker_nav_menu
-				) ); ?>
-			</div>
+			<?php wp_nav_menu( array(
+				'theme_location' => 'primary',
+				'container'      => '',
+				'menu_class'     => 'sidebar-nav',
+				// 'walker'         => new hyde_walker_nav_menu
+			) ); ?>
 
 			<p><?php printf( __( 'Proudly powered by %s', 'hyde' ), 'WordPress' ); ?></p>
 		</div>

@@ -33,4 +33,9 @@
 			}
 		} );
 	} );
+	wp.customize( 'header_fontsize', function( value ) {
+		value.bind( function( to ) {
+			$( '.sidebar h1' ).css( 'font-size', to );
+		} );
+	} );
 } )( jQuery );
