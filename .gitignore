@@ -10,6 +10,3 @@ desktop.ini
 *.sublime-project
 *.sublime-workspace
 ctags
-
-# Project files
-css/custom.css
