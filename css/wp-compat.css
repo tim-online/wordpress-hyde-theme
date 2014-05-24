@@ -1,0 +1,80 @@
+/* Sidebar nav */
+
+.sidebar-about h1 a:hover,
+.sidebar-about h1 a:focus {
+	text-decoration: none;
+}
+
+.menu-item {
+  display: block;
+}
+a.menu-item:hover,
+a.menu-item:focus {
+  text-decoration: underline;
+}
+.menu-item.current-menu-item {
+  font-weight: bold;
+}
+
+.post-navigation {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-top: 1px solid #eee;
+}
+
+.nav-previous {
+	float: left;
+}
+
+.nav-next {
+	float: right;
+}
+
+/* Forms */
+label {
+	float: left;
+	margin-right: 2em;
+	text-align: right;
+	width: 25%;
+}
+
+input, textarea {
+	color: #515151;
+	float: left;
+	font-size: 20px;
+	padding: 1%;
+	width: 60%;
+}
+
+/* Comments */
+.comments-area {
+	overflow: hidden;
+	margin-top: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-top: 1px solid #eee;
+}
+
+.form-allowed-tags {
+	float: left;
+	clear: left;
+	overflow: hidden;
+}
+
+#submit {
+	background-color: #202020;
+	border: 0 solid transparent;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 0.5em 1em;
+	width: auto;
+}
+
+#submit:hover {
+	background-color: #bf616a;
+}
+
+.comment {
+	list-style-type: none;
+}
