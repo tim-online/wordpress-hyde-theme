@@ -6,7 +6,7 @@ Jekyll](http://hyde.getpoole.com/) and ported to Wordpress. I tries to be a
 1-on-1 as most as possible. I tried to keep the html & css for the original
 Hyde theme and this Wordpress port mostly the same.
 
-![Screenshot of the original Hyde theme](/screenshot.png?raw=true)
+![Screenshot of the Wordpress Hyde theme](/screenshot.png?raw=true)
 
 ## Installation
 
