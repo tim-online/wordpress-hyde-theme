@@ -52,6 +52,7 @@ function hyde_setup() {
 	add_theme_support( 'custom-background', apply_filters( 'hyde_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
+		'wp-head-callback' => 'hyde_custom_background_cb'
 	) ) );
 
 	// Enable support for HTML5 markup.
